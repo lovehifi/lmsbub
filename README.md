@@ -1,1 +1,1 @@
-# bublms
+# LMS-BubbleUPNP Server
