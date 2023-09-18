@@ -3,7 +3,7 @@
 cd ~
 sudo pacman -S --noconfirm jre-openjdk
 sudo pacman -S --noconfirm unzip
-wget https://bubblesoftapps.com/bubbleupnptetherclient/BubbleUPnPTetherClient-0.9.2.zip
+wget --overwrite https://bubblesoftapps.com/bubbleupnptetherclient/BubbleUPnPTetherClient-0.9.2.zip
 sudo unzip BubbleUPnPTetherClient-0.9.2.zip -d /opt/upnp
 
 echo "755"
@@ -32,4 +32,4 @@ sudo systemctl restart bupnp.service
 sudo systemctl status bupnp.service
 
 
-# wget -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
+# wget --overwrite -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
