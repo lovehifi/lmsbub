@@ -19,3 +19,5 @@ SSH Putty command:
 >
 > sudo systemctl status bupnp.service
 >
+
+![Screenshot](Screenshot.png)
