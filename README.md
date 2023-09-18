@@ -1,18 +1,18 @@
 # LMS-BubbleUPNP Server
-In LMS, Active plugin Remote Music Libraries.
 
+1./ In LMS, Active plugin Remote Music Libraries.
 In Setting Remote Music Libraries, UPnP/DLNA Client, choose: Enabled, look for other UPnP/DLNA media servers.
-
-
 > 
-Install Java runtime, Unzip, BubbleUPnP Tether Client, SSH Putty command:
+------------------------
+2./ Install Java runtime, Unzip, BubbleUPnP Tether Client, SSH Putty command:
 > wget -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
 >
-WinSCP edit file: /opt/upnp/bupnp.service
-
+------------------------
+3. WinSCP edit config file: /opt/upnp/bupnp.service
 Add username, pass, URL server
 
-SSH Putty command:
+------------------------
+4. Run bupnp.service, SSH Putty command:
 >
 > sudo systemctl daemon-reload
 >
