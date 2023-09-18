@@ -7,7 +7,7 @@ SSH Putty command:
 > 
 > wget -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
 >
-WinSCP Edit file /opt/upnp/bupnp.service
+WinSCP edit file: /opt/upnp/bupnp.service
 
 Add username, pass, URL server
 
