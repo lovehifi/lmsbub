@@ -30,7 +30,7 @@ sudo chmod -R 755 /etc/systemd/system/bupnp.service
 sudo systemctl daemon-reload
 sudo systemctl enable bupnp.service
 sudo systemctl restart bupnp.service
-sudo systemctl status bupnp.service
+#sudo systemctl status bupnp.service
 
 # wget -N -O install-archlinux.sh https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
 # wget -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
