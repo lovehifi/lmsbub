@@ -3,7 +3,8 @@
 cd ~
 sudo pacman -S --noconfirm jre-openjdk
 sudo pacman -S --noconfirm unzip
-wget --overwrite https://bubblesoftapps.com/bubbleupnptetherclient/BubbleUPnPTetherClient-0.9.2.zip
+
+wget https://bubblesoftapps.com/bubbleupnptetherclient/BubbleUPnPTetherClient-0.9.2.zip
 sudo unzip BubbleUPnPTetherClient-0.9.2.zip -d /opt/upnp
 
 echo "755"
