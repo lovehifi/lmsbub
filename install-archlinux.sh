@@ -14,7 +14,7 @@ sudo chmod -R 755 /opt/upnp/launch.sh && sudo chmod -R 755 /opt/upnp/launch.sh
 echo "Creating systemd unit /etc/systemd/system/bupnp.service"
 echo "[Unit]
 Description=BUPnP DLNA/UPnP-AV server
-After=local-fs.target remote-fs.target nss-lookup.target network.target
+After=network.target
 
 [Service]
 Type=simple
