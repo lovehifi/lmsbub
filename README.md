@@ -22,6 +22,6 @@ Add username, pass, URL server
 >
 > sudo systemctl status bupnp.service
 >
-
-BubbleUPNP Server (tether)
+------------------------
+BubbleUPNP Server (tether) Screenshot
 ![Screenshot](Screenshot.png)
