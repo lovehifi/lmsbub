@@ -1,8 +1,8 @@
 #!/bin/sh
 
 cd ~
-sudo pacman -S jre-openjdk
-sudo pacman -S unzip
+sudo pacman -S --noconfirm jre-openjdk
+sudo pacman -S --noconfirm unzip
 wget https://bubblesoftapps.com/bubbleupnptetherclient/BubbleUPnPTetherClient-0.9.2.zip
 sudo unzip BubbleUPnPTetherClient-0.9.2.zip -d /opt/upnp
 
