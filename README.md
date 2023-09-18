@@ -1,4 +1,4 @@
-# LMS-BubbleUPNP Server
+# LMS-BubbleUPNP Server (for ArchLinux: rAudio...)
 
 1./ In LMS (Logitech Media Server) activate the "Remote Music Libraries" plugin. In the "Remote Music Libraries" settings, navigate to "UPnP/DLNA Client" and select "Enabled". This will allow you to discover other UPnP/DLNA media servers.
 > 
