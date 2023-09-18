@@ -5,6 +5,7 @@ In Setting Remote Music Libraries, UPnP/DLNA Client, choose: Enabled, look for o
 
 SSH Putty command:
 > 
+BubbleUPnP Tether Client
 > wget -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
 >
 WinSCP edit file: /opt/upnp/bupnp.service
@@ -20,4 +21,5 @@ SSH Putty command:
 > sudo systemctl status bupnp.service
 >
 
+BubbleUPNP Server (tether)
 ![Screenshot](Screenshot.png)
