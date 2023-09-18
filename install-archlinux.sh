@@ -32,4 +32,4 @@ sudo systemctl restart bupnp.service
 sudo systemctl status bupnp.service
 
 
-# wget -O - install-archlinux.sh | sh
+# wget -O - https://raw.githubusercontent.com/lovehifi/lmsbub/main/install-archlinux.sh | sh
