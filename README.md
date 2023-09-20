@@ -24,5 +24,7 @@ Add username, pass, URL server
 > sudo systemctl status bupnp.service
 >
 ------------------------
+Wait a few minutes for LMS to display the available servers.
+
 BubbleUPNP Server (tether) Screenshot
 ![Screenshot](Screenshot.png)
