@@ -9,7 +9,7 @@
 >
 ------------------------
 >
-3./ WinSCP edit config: /opt/upnp/bupnp.service or nano /opt/upnp/bupnp.service
+3./ WinSCP edit config (or nano edit): /opt/upnp/bupnp.service
 Add username, pass, URL server
 > ExecStart=/opt/upnp/launch.sh -connect http://yourserver:58050 -login yourusername -password yourpassword
 >
