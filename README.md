@@ -24,6 +24,7 @@ Add username, pass, URL server
 > sudo systemctl status bupnp.service
 >
 ------------------------
+You can connect to the BubbleUPNP Server either through the Internet or locally to access and listen to your music seamlessly.
 Wait a few minutes for LMS to display the available servers.
 
 BubbleUPNP Server (tether) Screenshot
