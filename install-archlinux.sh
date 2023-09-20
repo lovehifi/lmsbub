@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd ~
-echo "Install Java"
+echo "Install Java jre-openjdk-headless"
 sudo pacman -S --noconfirm jre-openjdk
 echo "Unzip"
 sudo pacman -S --noconfirm unzip
