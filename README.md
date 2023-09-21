@@ -30,5 +30,10 @@ Wait a few minutes for LMS to display the available servers.
 BubbleUPNP Server (tether) Screenshot
 ![Screenshot](Screenshot.png)
 
-## rAudioBub:
+
+### Another version of LMS-rAudio
+>
+at this [https://github.com/lovehifi/lmsbub9](https://github.com/lovehifi/lmsbub9).
+---------------------
+### rAudioBub:
 A Comparable Solution for rAudio at this [rAudioBub GitHub repository](https://github.com/lovehifi/raudiobub).
